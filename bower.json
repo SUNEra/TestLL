@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "description": "X Blog",
+  "main": "",
+  "authors": [
+    "SUNEra <qxiecanq@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SUNEra/TestLL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
