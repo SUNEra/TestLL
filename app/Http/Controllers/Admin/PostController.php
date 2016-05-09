@@ -17,6 +17,8 @@ class PostController extends Controller
      */
     public function index()
     {
+//        var_dump(\Auth::user());
+
         return view('admin.post.index');
     }
 }

@@ -33,6 +33,7 @@ gulp.task("copyfiles", function() {
 });
 
 elixir(function(mix) {
+
     // 合并 scripts
     mix.scripts(['js/jquery.js','js/bootstrap.js'],
         'public/assets/js/admin.js',
@@ -41,6 +42,4 @@ elixir(function(mix) {
 
     // 编译 Less
     mix.less('admin.less', 'public/assets/css/admin.css');
-
-    mix.sass('app.scss');
 });
